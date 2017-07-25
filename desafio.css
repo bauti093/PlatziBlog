@@ -1,0 +1,185 @@
+body {
+  font-family: "Allerta", sans-serif;
+  margin: 0;
+}
+
+.blog h3 {
+	width: 300px;
+	height: 70px;
+	margin: 10px 0;
+	color: #273B47;
+}
+
+.header {
+	background: #273B47;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+}
+
+.busqueda {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.contenedor {
+	margin: auto;
+  width: 1130px;
+}
+
+.portada {
+	position: relative;
+}
+
+.logotipo {
+	height: 30px;
+}
+
+.portada .descripcion {
+	background: rgba(255, 255, 255, .8);
+	position: absolute;
+	bottom: 50px;
+	left: 20px;
+	padding: 20px;
+}
+
+h1 {
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+
+.autor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 15px;
+	border-top: 1px solid gray;
+}
+
+.autor img {
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.autor p {
+	margin: 0;
+}
+
+.contenedor input {
+	margin-top: 10px;
+	padding: 4px;
+	width: 200px;
+}
+
+.contenedor img{
+	margin-top: 15px;
+}
+
+nav {
+	height: inherit;
+	display: flex;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	height: inherit;
+	margin: 0;
+}
+
+nav li {
+	list-style: none;
+	height: inherit;
+	margin-left: 15px;
+}
+
+nav li:after {
+	content: "│";
+	color: white;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav li:last-child:after {
+	display: none;
+}
+
+nav li:last-child {
+	margin-right: 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	height: inherit;
+	display: flex;
+	align-items: center;
+}
+
+nav a:hover {
+	box-shadow: inset 0 5px 0 #ff4842 !important;
+}
+
+.seleccionado {
+	box-shadow: inset 0 5px 0 #7fc719;
+}
+
+.btn {
+	margin-right: 10px;
+	height: 35px;
+	font-family: "Allerta", sans-serif;
+	cursor: pointer;
+	background-color: #ff4842;
+	border-radius: 4px;
+	border-style: none;
+	color: white;
+	transition: .2s;
+}
+
+.btn:hover {
+	background-color: #7fc719;
+}
+
+#casa {
+	height: 600px;
+	width: 1130px;
+}
+
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.blog span {
+	color: #67676B;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+	align-items: center;
+}
+
+.footer ul {
+	display: flex;
+	list-style: none;
+}
+
+.footer span {
+	color: #606060;
+}
+
+.selected {
+	color: #606060 !important;
+}
+
+.footer a {
+	display: inline-block;
+	margin: 0 15px;
+	color: #202020;
+	text-decoration: none;
+}
